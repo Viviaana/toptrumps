@@ -56,7 +56,6 @@ const nobundo = new cardStats("Farseer Nobundo", 12, 75, 32, 56, 24);
 const valeera = new cardStats("Valeera Sanguinar", 51, 32, 84, 25, 43);
 const ashara = new cardStats("Queen Ashara", 63, 100, 36, 89, 99);
 const archimonde = new cardStats("Archimonde the Defiler", 56, 68, 23, 86, 98);
-const kiljaeden = new cardStats("Kil'jaeden the Deceiver", 48, 91, 24, 78, 97);
 const sargeras = new cardStats("Sargeras", 98, 95, 94, 99, 100);
 const alex = new cardStats("Alexstrasza the Life-Binder", 59, 87, 19, 89, 9);
 const malygos = new cardStats("Malygos, Aspect of the blue Dragonflight", 76, 99, 32, 76, 78);
@@ -70,10 +69,12 @@ const lorth = new cardStats("Regent Lord Lor'themar Theron", 58, 87, 39, 77, 29)
 const alleria = new cardStats("Alleria Windrunner", 73, 69, 82, 75, 52);
 const vareesa = new cardStats("Vereesa Windrunner", 61, 49, 87, 49, 21);
 const illidan = new cardStats("Illidan Stormrage", 90, 21, 63, 94, 72)
+const millhouse = new cardStats("Millhouse Manastorm", 11, 79, 23, 65, 100);
+const varok = new cardStats("High Overlord Varok Saurfang", 93, 7, 53, 87, 30)
 
 
 
-let fullSet = [thrall, anduin, sylvanas, mankrik, medivh, velen, nobundo, valeera, ashara, archimonde, kiljaeden, sargeras, alex, malygos, dw, nozdormu, ysera, brann, magni, kael, lorth, alleria, vareesa, illidan]
+let fullSet = [thrall, anduin, sylvanas, mankrik, medivh, velen, nobundo, valeera, ashara, archimonde, sargeras, alex, malygos, dw, nozdormu, ysera, brann, magni, kael, lorth, alleria, vareesa, illidan, millhouse]
 
 function shuffle(fullSet) {
     let currentIndex = fullSet.length, temporaryValue, randomIndex;
